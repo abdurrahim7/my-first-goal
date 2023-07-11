@@ -97,11 +97,13 @@
     background: rgba(229, 84, 115, 0.05);
 }
 .insta-container-main{
+    margin-top: 150px;
+    margin-bottom: 150px;
     width: 1400px;
-    height: 800px;
+    height: 300px;
     background: #FFF;
-    margin: 50px 0px 50px 0px;
-    margin: 150px 0px 150px 0px;
+    /*margin: 50px 0px 50px 0px;
+    margin: 150px 0px 150px 0px;*/
     
 }
 .title-all-head{
@@ -118,6 +120,7 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin: 20px;
 }
 .insta-photo{
     
@@ -131,7 +134,11 @@
     justify-items: center;
 }
 .latest-container{
-    width: 1400px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 1160px;
     height: 350px;
     background-image: url("images/Rectangle\ 9.png");
 
@@ -140,6 +147,8 @@
 }
 .latest-head{
     color: #272727;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
@@ -153,5 +162,49 @@
     font-weight: 400;
     line-height: 30px;
 }
+.latest-label{
+    display: flex;
+    justify-items: center;
+    
+    /*align-items: center;
+    justify-content: space-around;*/
 
+}
+.latest-form{
+    width: 700px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+}
+.footer-container{
+
+    margin-bottom: 70px;
+    width: 1600px;
+    height: 400px;
+    flex-shrink: 0;
+    background: #111010;
+    color: white;
+}
+.footer-header{
+    color: #E55473;  
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+
+}
+.footer-para{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 10px;
+    justify-content: center;
+}
+.color{
+    color: red;
+}
+.color-two{
+    color: #E55473;
+}
 
