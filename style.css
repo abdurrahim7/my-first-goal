@@ -178,13 +178,14 @@
 .img-label{
     display: flex;
     justify-content: space-around;
+    justify-items: center;
 }
 .latest-form{
     width: 700px;
-height: 64px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
 }
 .footer-container{
     text-align: center;
