@@ -65,6 +65,10 @@
     align-items: center;
     gap: 10px;
 }
+.link{
+    display: flex;
+    justify-content: space-around;
+}
 .photo-two{
     width: 300px;
     height: 400px;
@@ -178,10 +182,12 @@ border-radius: 8px;
 background: #FFF;
 }
 .footer-container{
-
+    text-align: center;
+    justify-content: center;
+    padding-top: 70px;
     margin-bottom: 70px;
-    width: 1600px;
-    height: 400px;
+    width: 1400px;
+    height: 250px;
     flex-shrink: 0;
     background: #111010;
     color: white;
@@ -195,11 +201,16 @@ background: #FFF;
 }
 .footer-para{
     color: rgba(255, 255, 255, 0.90);
+    margin: 10px;
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 100;
     line-height: 10px;
     justify-content: center;
+}
+.footer-para-one{
+    color: gray;
+    font-size: 8px;
 }
 .color{
     color: red;
